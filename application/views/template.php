@@ -19,17 +19,27 @@
 							<a href="#">Home</a>
 						</li>
 						<li>
-							<a href="#">Link</a>
+							<a href="#">About Us</a>
 						</li>
 						<li>
-							<a href="#">Link</a>
+							<a href="#">Products & Services</a>
+						</li>
+						<li>
+							<a href="#">Car Stock</a>
+						</li>
+						<li>
+							<a href="#">Contact Us</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div id="contentView">
+			<?php
 			
+			$this->load->view($contentView);
+			
+			?>
 		</div>
 		<div id="footer">
 
