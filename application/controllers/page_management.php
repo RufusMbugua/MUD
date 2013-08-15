@@ -11,7 +11,7 @@ class Page_management extends MY_Controller {
 
 	public function index() {
 		$data['contentView']='home';
-		$this->load->view('template');
+		$this->load->view('template',$data);
 	}
 }
 		
